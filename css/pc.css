@@ -81,3 +81,31 @@ main {
     font-size: 19px;
     font-family: 'NeoDunggeunmo';
 }
+
+@media screen and (max-width: 1024px) {
+    #chat-box {
+        font-size: 18px;
+        line-height: 33px;
+    }
+    #chat {
+        font-size: 18px;
+    }
+    #chat-input {
+        font-size: 18px;
+        line-height: 29px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #chat-box {
+        font-size: 16px;
+        line-height: 31px;
+    }
+    #chat {
+        font-size: 16px;
+    }
+    #chat-input {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
