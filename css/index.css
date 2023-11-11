@@ -219,6 +219,12 @@ section {
     #section1-title {
         padding-left: 20px;
     }
+    #section2-content {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px;
+        height: 27%;
+    }
     #section4-title {
         margin-bottom: 400px;
         margin-left: 0;
@@ -284,10 +290,11 @@ section {
     #section2-content {
         width: 80%;
         margin: 0 auto;
-        font-size: 1rem;
+        font-size: 12px;
         max-height: 250px;
         margin-top: 500px;
         line-height: 18px;
+        height: 20%;
     }
     .section3-title,
     .section6-title {
@@ -363,7 +370,7 @@ section {
     }
     #section7-container img,
     #section8-container img {
-        width: 440px;
-        margin-left: -50px;
+        width: 400px;
+        margin-left: -60px;
     }
 }
