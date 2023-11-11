@@ -85,7 +85,7 @@ main{
 }
 .btn {
     box-sizing: border-box;
-    width: 195px;
+    width: 100%;
     height: 60px;
     background-color: #2B2D2BF2;
     color: white;
@@ -103,9 +103,10 @@ main{
 .button-container {
     width: 65.5%;
     height: max-content;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     flex-wrap: wrap;
-    justify-content: center;
+    place-items: center;
     row-gap: 25px;
     column-gap: 64px;
     position: absolute;
@@ -115,7 +116,7 @@ main{
         width: 350px;
     }
 }
-@media screen and (max-width: 1038px) {
+/* @media screen and (max-width: 1038px) {
     .btn {
         width: 30%; 
         height: 50px;
@@ -123,15 +124,17 @@ main{
     .bbibbi_img{
         width: 350px;
     }
-}
+} */
 /* 태블릿 */
 @media screen and (max-width: 1024px) {
     .button-container {
+        width: 70%;
         row-gap: 22px;
         column-gap: 58.34px;
+        grid-template-columns: repeat(3, 1fr);
     }
     .btn {
-        width: 30%; 
+        width: 100%; 
         height: 50px;
         font-size: 22px;
     }
@@ -147,14 +150,15 @@ main{
 }
 
 /* 모바일 */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 540px) {
     .button-container {
         row-gap: 15px;
         column-gap: 25px;
+        grid-template-columns: repeat(2, 1fr);
        
     }
     .btn {
-        width: 44.8%; 
+        width: 80%; 
         height: 42.5px;
         font-size: 20px;
     }  
