@@ -272,7 +272,7 @@ section {
 
 @media screen and (max-width: 540px) {
     #section1-title {
-        width: 327px;
+        width: 387px;
         margin: 0 20px 0 70px;
     }
     #section2-title {
@@ -296,76 +296,74 @@ section {
     #right {
         display: none;
     }
-
     #section4-container {
         height: auto;
         display: flex;
+        margin-top: 150px;
         flex-direction: column-reverse;
     }
-
+    #section4-title {
+        width: 247px;
+        padding-left: 370px;
+    }
     #section4-box {
         display: flex;
-        margin-left: 0;
+        margin-top: 350px;
         text-align: center;
+        padding-top: 150px;
     }
-
     #section4-container img {
         width: 80%;
-        padding-top: 0;
+        padding-top: 100px;
         margin-top: 60px;
         margin-left: 50px;
     }
-
-    #section4-title {
-        width: 250px;
-        margin-left: 0;
-        margin-top: 60px;
-    }
-
     #section4-content {
         width: 75%;
         font-size: 1rem;
-        margin-top: 10px;
         line-height: 18px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: -400px;
     }
-
     #section5-container {
         height: 270px;
         padding-top: 135px;
     }
-
     #section7-container,
     #section8-container {
         height: 800px;
+        margin-left: 0;
     }
-
-    #section7-title,
-    #section8-title {
+    #section7-title {
         margin-left: 100px;
     }
-
     #section7-title:nth-child(1),
     #section8-title:nth-child(1) {
         padding-top: 60px;
     }
-
     #section7-subtitle {
         text-align: center;
+        margin-left: 0;
     }
-
+    #section7-box,
+    #section8-box {
+        flex-direction: column;
+    }
     #section7-content,
     #section8-content {
-        width: 75%;
         font-size: 1rem;
         line-height: 18px;
-        margin: 0 auto 60px auto;
     }
-    
+    #section7-content {
+        margin-bottom: 60px;
+    }
+    #section8-content {
+        margin-top: 60px;
+    }
     #section7-container img,
     #section8-container img {
         width: 440px;
-        margin: 0 27.5px;
+        margin-left: -50px;
     }
 }
